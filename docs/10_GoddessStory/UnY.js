@@ -6,7 +6,7 @@ import './GoddessStory.css'; // Crée ce fichier CSS à côté
 
 const images = [
   {
-    src: '/img-waifu/NS-01-300x300.webp',
+    src: '/WaifuCard/img-waifu/NS-01-300x300.webp',
     titre: 'NS-01',
     details: [
         'Cartes par boîte : 150',
@@ -20,7 +20,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-02-300x300.webp',
+    src: '/WaifuCard/img-waifu/NS-02-300x300.webp',
     titre: 'NS-02',
     details: [
         'Cartes par boîte : 150',
@@ -34,7 +34,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-03-300x300.webp',
+    src: '/WaifuCard/img-waifu/NS-03-300x300.webp',
     titre: 'NS-03',
     details: [
         'Cartes par boîte : 150',
@@ -48,7 +48,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-04-300x300.webp',
+    src: '/WaifuCard/img-waifu/NS-04-300x300.webp',
     titre: 'NS-04',
     details: [
         'Cartes par boîte : 150',
@@ -62,7 +62,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-05-300x300.webp',
+    src: '/WaifuCard/img-waifu/NS-05-300x300.webp',
     titre: 'NS-05',
     details: [
         'Cartes par boîte : 150',
@@ -76,7 +76,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-06-300x300.webp',
+    src: '/WaifuCard/img-waifu/NS-06-300x300.webp',
     titre: 'NS-06',
     details: [
         'Cartes par boîte : 150',
@@ -90,7 +90,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-07-300x300.webp',
+    src: '/WaifuCard/img-waifu/NS-07-300x300.webp',
     titre: 'NS-07',
     details: [
         'Cartes par boîte : 150',
@@ -106,7 +106,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-08.png',
+    src: '/WaifuCard/img-waifu/NS-08.png',
     titre: 'NS-08',
     details: [
         'Cartes par boîte : 150',
@@ -123,7 +123,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-09-300x300.webp',
+    src: '/WaifuCard/img-waifu/NS-09-300x300.webp',
     titre: 'NS-09',
     details: [
         'Cartes par boîte : 150',
@@ -137,7 +137,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-10-300x300.webp',
+    src: '/WaifuCard/img-waifu/NS-10-300x300.webp',
     titre: 'NS-10',
     details: [
         'Cartes par boîte : 150',
@@ -153,7 +153,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-11-300x300.webp',
+    src: '/WaifuCard/img-waifu/NS-11-300x300.webp',
     titre: 'NS-11',
     details: [
         'Cartes par boîte : 150',
@@ -167,7 +167,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-12-300x300.webp',
+    src: '/WaifuCard/img-waifu/NS-12-300x300.webp',
     titre: 'NS-12',
     details: [
         'Cartes par boîte : 150',
@@ -183,7 +183,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-13.png',
+    src: '/WaifuCard/img-waifu/NS-13.png',
     titre: 'NS-13',
     details: [
         'Cartes par boîte : 150',
@@ -201,7 +201,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-14.png',
+    src: '/WaifuCard/img-waifu/NS-14.png',
     titre: 'NS-14',
     details: [
         'Cartes par boîte : 150',
@@ -219,7 +219,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-16.png',
+    src: '/WaifuCard/img-waifu/NS-16.png',
     titre: 'NS-16',
     details: [
         'Cartes par boîte : 150',
@@ -236,7 +236,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-17.png',
+    src: '/WaifuCard/img-waifu/NS-17.png',
     titre: 'NS-17',
     details: [
         'Cartes par boîte : 150',

@@ -6,7 +6,7 @@ import './GoddessStory.css'; // Crée ce fichier CSS à côté
 
 const images = [
   {
-    src: '/img-waifu/NS-10M01.png',
+    src: '/WaifuCard/img-waifu/NS-10M01.png',
     titre: 'NS-10M01',
     details: [
         'Cartes par boîte : 108',
@@ -22,7 +22,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-10M02.png',
+    src: '/WaifuCard/img-waifu/NS-10M02.png',
     titre: 'NS-10M02',
     details: [
         'Cartes par boîte : 108',
@@ -37,7 +37,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-10M03.png',
+    src: '/WaifuCard/img-waifu/NS-10M03.png',
     titre: 'NS-10M03',
     details: [
         'Cartes par boîte : 60',
@@ -52,7 +52,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-10M04.png',
+    src: '/WaifuCard/img-waifu/NS-10M04.png',
     titre: 'NS-10M04',
     details: [
         'Cartes par boîte : 108',
@@ -69,7 +69,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-10M04web.png',
+    src: '/WaifuCard/img-waifu/NS-10M04web.png',
     titre: 'NS-10M04 (online)',
     details: [
         'Cartes par boîte : 60',
@@ -86,7 +86,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-10M05.png',
+    src: '/WaifuCard/img-waifu/NS-10M05.png',
     titre: 'NS-10M05',
     details: [
         'Cartes par boîte : 108',
@@ -103,7 +103,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-10M06.png',
+    src: '/WaifuCard/img-waifu/NS-10M06.png',
     titre: 'NS-10M06',
     details: [
         'Cartes par boîte : 108',

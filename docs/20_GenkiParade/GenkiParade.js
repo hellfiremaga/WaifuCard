@@ -6,7 +6,7 @@ import '../10_GoddessStory/GoddessStory.css'; // Crée ce fichier CSS à côté
 
 const images = [
   {
-    src: '/img-waifu/GenkiParade.png',
+    src: '/WaifuCard/img-waifu/GenkiParade.png',
     titre: 'Genki Parade',
     details: [
         'Cartes par boîte : 21',
@@ -25,7 +25,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/GenkiParade2.png',
+    src: '/WaifuCard/img-waifu/GenkiParade2.png',
     titre: 'Genki Parade 2',
     details: [
         'Cartes par boîte : ?',

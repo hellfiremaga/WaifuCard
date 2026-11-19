@@ -6,7 +6,7 @@ import '../10_GoddessStory/GoddessStory.css'; // Crée ce fichier CSS à côté
 
 const images = [
   {
-    src: '/img-waifu/CardCaptorSakuraNouvelAn.png',
+    src: '/WaifuCard/img-waifu/CardCaptorSakuraNouvelAn.png',
     titre: 'Card Captor Sakura Spécial nouvel an',
     details: [
         'Cartes par boîte : 51',
@@ -52,7 +52,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/CardCaptorSakuraJauneCaihong.png',
+    src: '/WaifuCard/img-waifu/CardCaptorSakuraJauneCaihong.png',
     titre: 'Card Captor Sakura (jaune)',
     details: [
         'Cartes par boîte : 22~26',
@@ -77,7 +77,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/CardCaptorSakuraBleueCaho.png',
+    src: '/WaifuCard/img-waifu/CardCaptorSakuraBleueCaho.png',
     titre: 'Card Captor Sakura (Bleue)',
     details: [
         'Cartes par boîte : ?',
@@ -97,7 +97,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/CardCaptorSakuraRosePochette.png',
+    src: '/WaifuCard/img-waifu/CardCaptorSakuraRosePochette.png',
     titre: 'Card Captor Sakura (Pochette rose)',
     details: [
         'Cartes par boîte : 25',

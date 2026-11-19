@@ -6,7 +6,7 @@ import './GoddessStory.css'; // Crée ce fichier CSS à côté
 
 const images = [
   {
-    src: '/img-waifu/NS-5M01-1-300x300.webp',
+    src: '/WaifuCard/img-waifu/NS-5M01-1-300x300.webp',
     titre: 'NS-5M01',
     details: [
         'Cartes par boîte : 140',
@@ -20,7 +20,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-5M02.png',
+    src: '/WaifuCard/img-waifu/NS-5M02.png',
     titre: 'NS-5M02',
     details: [
         'Cartes par boîte : 140',
@@ -34,7 +34,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-5M03.png',
+    src: '/WaifuCard/img-waifu/NS-5M03.png',
     titre: 'NS-5M03',
     details: [
         'Cartes par boîte : 140',
@@ -48,7 +48,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-5M04.png',
+    src: '/WaifuCard/img-waifu/NS-5M04.png',
     titre: 'NS-5M04',
     details: [
         'Cartes par boîte : 140',
@@ -62,7 +62,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-5M05.png',
+    src: '/WaifuCard/img-waifu/NS-5M05.png',
     titre: 'NS-5M05',
     details: [
         'Cartes par boîte : 140',
@@ -76,7 +76,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-5M05web.png',
+    src: '/WaifuCard/img-waifu/NS-5M05web.png',
     titre: 'NS-5M05 (online)',
     details: [
         'Cartes par boîte : 72',
@@ -90,7 +90,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-5M06.png',
+    src: '/WaifuCard/img-waifu/NS-5M06.png',
     titre: 'NS-5M06',
     details: [
         'Cartes par boîte : 140',
@@ -104,7 +104,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-5M06web.png',
+    src: '/WaifuCard/img-waifu/NS-5M06web.png',
     titre: 'NS-5M06 (online)',
     details: [
         'Cartes par boîte : 72',
@@ -118,7 +118,7 @@ const images = [
     imagesSet: [],
   },
   {
-    src: '/img-waifu/NS-5M07.png',
+    src: '/WaifuCard/img-waifu/NS-5M07.png',
     titre: 'NS-5M07',
     details: [
         'Cartes par boîte : 140',
@@ -134,7 +134,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-5M07web.png',
+    src: '/WaifuCard/img-waifu/NS-5M07web.png',
     titre: 'NS-5M07 (online)',
     details: [
         'Cartes par boîte : 72',
@@ -150,7 +150,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-5M08.png',
+    src: '/WaifuCard/img-waifu/NS-5M08.png',
     titre: 'NS-5M08',
     details: [
         'Cartes par boîte : 140',
@@ -166,7 +166,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-5M09.png',
+    src: '/WaifuCard/img-waifu/NS-5M09.png',
     titre: 'NS-5M09',
     details: [
         'Cartes par boîte : 140',
@@ -183,7 +183,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/NS-5M10.png',
+    src: '/WaifuCard/img-waifu/NS-5M10.png',
     titre: 'NS-5M10',
     details: [
         'Cartes par boîte : 140',

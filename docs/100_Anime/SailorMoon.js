@@ -6,7 +6,7 @@ import '../10_GoddessStory/GoddessStory.css'; // Crée ce fichier CSS à côté
 
 const images = [
   {
-    src: '/img-waifu/EternalSailorMoon.png',
+    src: '/WaifuCard/img-waifu/EternalSailorMoon.png',
     titre: 'Pretty Guardian Sailor Moon',
     details: [
         'Cartes par boîte : 21',
@@ -52,7 +52,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/SailorMoonCristalEternel.png',
+    src: '/WaifuCard/img-waifu/SailorMoonCristalEternel.png',
     titre: 'Pretty Guardian Sailor Moon',
     details: [
         'Cartes par boîte : 18',
@@ -87,7 +87,7 @@ const images = [
     ],
   },
   {
-    src: '/img-waifu/SailorMoonLunaFable.png',
+    src: '/WaifuCard/img-waifu/SailorMoonLunaFable.png',
     titre: 'Luna Fable',
     details: [
         'Cartes par boîte : 25',
