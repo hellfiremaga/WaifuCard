@@ -218,6 +218,43 @@ const images = [
       '/img-long-waifu/NS-14_small.jpg',
     ],
   },
+  {
+    src: '/img-waifu/NS-16.png',
+    titre: 'NS-16',
+    details: [
+        'Cartes par boîte : 150',
+        'Cartes dans le set : 117',
+        'Nb cartes par sachet : 5',
+        'Nb sachets par boîte : 30',
+        'Rareté : R, CR, SR, SCR, SSR, GR, SER',
+        'Année : 10/2026'
+    ],
+    raretes: {SER: 3, GR:6, SSR: 18, SCR: 18, SR: 36, CR:18, R: 18},
+    imagesSet: [
+      '/img-long-waifu/NS-16_full.png',
+      '/img-long-waifu/NS-16_small.jpg',
+    ],
+  },
+  {
+    src: '/img-waifu/NS-17.png',
+    titre: 'NS-17',
+    details: [
+        'Cartes par boîte : 150',
+        'Cartes dans le set : 117',
+        'Nb cartes par sachet : 5',
+        'Nb sachets par boîte : 30',
+        'Rareté : R, CR, SR, SCR, SSR, GR, SER',
+        'Année : 10/2026'
+    ],
+    raretes: {SER: 3, GR:6, SSR: 18, SCR: 18, SR: 36, CR:18, R: 18},
+    imagesSet: [
+      '/img-long-waifu/NS-17_full.jpg',
+      '/img-long-waifu/NS-17_small.jpg',
+      '/img-bonus/NS-17_boxPres.jpg',
+      '/img-bonus/NS-17_summary.jpg',
+      '/img-bonus/NS-17_summary2.jpg',
+    ],
+  },
 ];
 
 export default function UnY() {

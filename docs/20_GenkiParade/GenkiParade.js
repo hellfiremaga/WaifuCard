@@ -13,7 +13,7 @@ const images = [
         'Cartes dans le set : 226',
         'Nb cartes par sachet : 10',
         'Nb sachets par boîte : 2',
-        'Rareté : PT, SSR, QR, ZR, GP, SP, SSP, GSP, MSP, LSP, ESP, XP, SXP, SSS, EXP',
+        'Rareté : N, R, PT, Bifold, UR, SR, SP, PX, MR, GS, XP, WS, SSS, Wedding, Spose, GP, ESR, Proxy, Metal, URT, LXP, EX',
         'Editeur : Anime Feast',
         'Année : ?'
     ],
@@ -22,6 +22,27 @@ const images = [
       '/img-long-waifu/GenkiParade_promo1.png',
       '/img-long-waifu/GenkiParade_promo3.png',
       '/img-long-waifu/GenkiParade_promo2.png',
+    ],
+  },
+  {
+    src: '/img-waifu/GenkiParade2.png',
+    titre: 'Genki Parade 2',
+    details: [
+        'Cartes par boîte : ?',
+        'Cartes dans le set : ?',
+        'Nb cartes par sachet : 3',
+        'Nb sachets par boîte : 13',
+        'Rareté : N, R, PT, Bifold, UR, SR, SP, PX, MR, GS, XP, WS, SSS, Wedding, Spose, GP, ESR, Proxy, Metal, URT, LXP, EX',
+        'Editeur : Anime Feast',
+        'Année : 01/2026'
+    ],
+    raretes: {N: 70, R: 30, UR: 24, WR: 30, PR: 36, Puzzle: 18, SP: 24, CR: 24, UTR: 15, MR: 20, ZR: 18, DR: 10, LSP: 8, EX: 12, HR: 8, Bifold: 6, SSP: 6, Metal: 8, LSR: 6},
+    imagesSet: [
+      '/img-long-waifu/GenkiParade2_promo.png',
+      '/img-long-waifu/GenkiParade2_promo2.png',
+      '/img-long-waifu/GenkiParade2_promo3.png',
+      '/img-long-waifu/GenkiParade2_small.png',
+      '/img-long-waifu/GenkiParade2_gift.png',
     ],
   },
 ];

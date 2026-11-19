@@ -219,6 +219,44 @@ const images = [
       '/img-long-waifu/NS-2M14_short.jpg',
     ],
   },
+  {
+    src: '/img-waifu/NS-2M16.png',
+    titre: 'NS-2M16',
+    details: [
+        'Cartes par boîte : 180',
+        'Cartes dans le set : 148',
+        'Nb cartes par sachet : 6',
+        'Nb sachets par boîte : 30',
+        'Rareté : R, CR, SR, SCR, SSR, PTR, SER, UR, MSR, PR',
+        'Année : 10/2026'
+    ],
+    raretes: {PR: 18, MSR: 6, UR: 6, SER: 6, PTR: 9, SSR: 27, SCR: 18, SR: 18, CR: 18, R: 18},
+    imagesSet: [
+      '/img-long-waifu/NS-2M16_full.jpg',
+      '/img-long-waifu/NS-2M16_small.jpg',
+      '/img-bonus/NS-2M16_boxPres.jpg',
+    ],
+  },
+  {
+    src: '/img-waifu/NS-2M17.png',
+    titre: 'NS-2M17',
+    details: [
+        'Cartes par boîte : 180',
+        'Cartes dans le set : 148',
+        'Nb cartes par sachet : 6',
+        'Nb sachets par boîte : 30',
+        'Rareté : R, CR, SR, SCR, SSR, PTR, SER, UR, MSR, PR',
+        'Année : 10/2026'
+    ],
+    raretes: {PR: 18, MSR: 6, UR: 6, SER: 6, PTR: 9, SSR: 27, SCR: 18, SR: 18, CR: 18, R: 18},
+    imagesSet: [
+      '/img-long-waifu/NS-2M17_full.png',
+      '/img-long-waifu/NS-2M17_small.png',
+      '/img-bonus/NS-2M17_boxPres.jpg',
+      '/img-bonus/NS-2M17_summary.jpg',
+      '/img-bonus/NS-2M17_summary2.jpg',
+    ],
+  },
 ];
 
 export default function DeuxY() {
