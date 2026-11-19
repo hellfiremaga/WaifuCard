@@ -130,7 +130,7 @@ const images = [
     ],
     raretes: {PR: 12, XR: 9, SZR: 9, ZR: 9, INS: 18, MR: 18, PTR: 18, SSR: 27, SR: 18, R: 18},
     imagesSet: [
-      "/img-long-waifu/NS-5M07_short.png",
+      "/WaifuCard/img-long-waifu/NS-5M07_short.png",
     ],
   },
   {
@@ -146,7 +146,7 @@ const images = [
     ],
     raretes: {PR: 12, XR: 9, SZR: 9, ZR: 9, INS: 18, MR: 18, PTR: 18, SSR: 27, SR: 18, R: 18},
     imagesSet: [
-      "/img-long-waifu/NS-5M07_short.png",
+      "/WaifuCard/img-long-waifu/NS-5M07_short.png",
     ],
   },
   {
@@ -162,7 +162,7 @@ const images = [
     ],
     raretes: {PR: 12, SZR: 9, ZR: 9, XR: 9, INS: 18, MR: 18, SSR: 27, SCR: 18, SR: 18, CR: 18, R: 18},
     imagesSet: [
-      "/img-long-waifu/NS-5M08_full.png",
+      "/WaifuCard/img-long-waifu/NS-5M08_full.png",
     ],
   },
   {
@@ -178,8 +178,8 @@ const images = [
     ],
     raretes: {PR: 12, MTL: 6, ACR: 9, TGR: 9, HR: 9, SZR: 9, ZR: 9, XR: 9, WTR: 8, TR: 18, INS: 18, MR: 18, SSR: 27, SCR: 18, SR: 18, CR: 18, R: 18},
     imagesSet: [
-      "/img-long-waifu/NS-5M09_promo.png",
-      "/img-long-waifu/NS-5M09_full.jpg"
+      "/WaifuCard/img-long-waifu/NS-5M09_promo.png",
+      "/WaifuCard/img-long-waifu/NS-5M09_full.jpg"
     ],
   },
   {
@@ -195,10 +195,10 @@ const images = [
     ],
     raretes: {PR: 12, TGR: 9, HR: 9, SSD: 9, SD: 9, SZR: 9, ZR: 9, XR: 9, BHR: 18, MR: 18, SSR: 27, SCR: 18, SR: 18, CR: 18, R: 18},
     imagesSet: [
-      "/img-long-waifu/NS-5M10_promo.png",
-      "/img-long-waifu/NS-5M10_full.jpg",
-      "/img-long-waifu/NS-5M10_short.png",
-      "/img-long-waifu/NS-5M10_acrylic.png",
+      "/WaifuCard/img-long-waifu/NS-5M10_promo.png",
+      "/WaifuCard/img-long-waifu/NS-5M10_full.jpg",
+      "/WaifuCard/img-long-waifu/NS-5M10_short.png",
+      "/WaifuCard/img-long-waifu/NS-5M10_acrylic.png",
     ],
   },
 ];

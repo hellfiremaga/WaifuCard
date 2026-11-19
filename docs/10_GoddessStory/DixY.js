@@ -18,7 +18,7 @@ const images = [
     ],
     raretes: {PR: 18, SP: 9, NTR: 9, MR: 18, FR: 36, SSR: 36, SR: 36},
     imagesSet: [
-        "/img-long-waifu/NS-10M01_box.png"
+        "/WaifuCard/img-long-waifu/NS-10M01_box.png"
     ],
   },
   {
@@ -64,8 +64,8 @@ const images = [
     ],
     raretes: {PR: 13, BW: 9, LP: 9, MR: 9, NNS: 9, SP: 9, CP: 18, FR: '18 x 2', SSR: 27, SR: 36},
     imagesSet: [
-      '/img-long-waifu/NS-10M04online_promo1.avif',
-      '/img-long-waifu/NS-10M04online_promo2.avif',
+      '/WaifuCard/img-long-waifu/NS-10M04online_promo1.avif',
+      '/WaifuCard/img-long-waifu/NS-10M04online_promo2.avif',
     ],
   },
   {
@@ -81,8 +81,8 @@ const images = [
     ],
     raretes: {PR: 13, BW: 9, LP: 9, MR: 9, NNS: 9, SP: 9, CP: 18, FR: '18 x 2', SSR: 27, SR: 36},
     imagesSet: [
-      '/img-long-waifu/NS-10M04online_promo1.avif',
-      '/img-long-waifu/NS-10M04online_promo2.avif',
+      '/WaifuCard/img-long-waifu/NS-10M04online_promo1.avif',
+      '/WaifuCard/img-long-waifu/NS-10M04online_promo2.avif',
     ],
   },
   {
@@ -98,8 +98,8 @@ const images = [
     ],
     raretes: {PR: 24, QN: 5, BW: 9, GP: 9, LP: 9, MR: 9, SC: 9, SP: 9, SZR: 9, INS: 18, FR: 18, SSR: 27, SCR: 18, SR: 18},
     imagesSet: [
-      '/img-long-waifu/NS-10M05_promo.jpg',
-      '/img-long-waifu/NS-10M05_full.jpg',
+      '/WaifuCard/img-long-waifu/NS-10M05_promo.jpg',
+      '/WaifuCard/img-long-waifu/NS-10M05_full.jpg',
     ],
   },
   {
@@ -115,7 +115,7 @@ const images = [
     ],
     raretes: {PR: 24, BHR: 9, BW: 9, COM: 9, LP: 9, MFR: 9, MR: 9, SC: 9, SCP: 9, SD: 9, SSD: 9, SFR: 9, SLP: 9, SP: 9, SWR: 9, FR: 18, TR: 18, SSR: 27, SCR: 18, SR: 18},
     imagesSet: [
-      '/img-long-waifu/NS-10M06_full.jpg',
+      '/WaifuCard/img-long-waifu/NS-10M06_full.jpg',
     ],
   },
 ];

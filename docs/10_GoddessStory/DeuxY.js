@@ -116,8 +116,8 @@ const images = [
     ],
     raretes: {PR: 12, PTR: 9, SSR: 27, SR: 18, R: 18},
     imagesSet: [
-      '/img-long-waifu/NS-2M08_promo.avif',
-      '/img-long-waifu/NS-2M08_short.png'
+      '/WaifuCard/img-long-waifu/NS-2M08_promo.avif',
+      '/WaifuCard/img-long-waifu/NS-2M08_short.png'
     ],
   },
   {
@@ -133,7 +133,7 @@ const images = [
     ],
     raretes: {PR: 12, UR: 6,SER: 6, PTR: 9, SSR: 27, SCR: 18, SR: 18, CR: 18, R: 18},
     imagesSet: [
-      '/img-long-waifu/NS-2M09_promo.png',
+      '/WaifuCard/img-long-waifu/NS-2M09_promo.png',
     ],
   },
   {
@@ -149,7 +149,7 @@ const images = [
     ],
     raretes: {PR: 12, UR: 6,SER: 6, PTR: 9, SSR: 27, SCR: 18, SR: 18, CR: 18, R: 18},
     imagesSet: [
-      '/img-long-waifu/NS-2M10_full.jpg',
+      '/WaifuCard/img-long-waifu/NS-2M10_full.jpg',
     ],
   },
   {
@@ -165,7 +165,7 @@ const images = [
     ],
     raretes: {PR: 12, MSR: 6, UR: 6, SER: 6, PTR: 9, SSR: 27, SCR: 18, SR: 18, CR: 18, R: 18},
     imagesSet: [
-      '/img-long-waifu/NS-2M11_full.jpg',
+      '/WaifuCard/img-long-waifu/NS-2M11_full.jpg',
     ],
   },
   {
@@ -181,7 +181,7 @@ const images = [
     ],
     raretes: {PR: 12, MSR: 6, UR: 6, SER: 6, PTR: 9, SSR: 27, SCR: 18, SR: 18, CR: 18, R: 18},
     imagesSet: [
-      '/img-long-waifu/NS-2M12_full.png',
+      '/WaifuCard/img-long-waifu/NS-2M12_full.png',
     ],
   },
   {
@@ -197,8 +197,8 @@ const images = [
     ],
     raretes: {PR: 22, MSR: 6, UR: 6, SER: 6, PTR: 9, SSR: 27, SCR: 18, SR: 18, CR: 18, R: 18},
     imagesSet: [
-      '/img-long-waifu/NS-2M13_promo.avif',
-      '/img-long-waifu/NS-2M13_full.avif',
+      '/WaifuCard/img-long-waifu/NS-2M13_promo.avif',
+      '/WaifuCard/img-long-waifu/NS-2M13_full.avif',
     ],
   },
   {
@@ -214,9 +214,9 @@ const images = [
     ],
     raretes: {PR: 22, MSR: 6, UR: 6, SER: 6, PTR: 9, SSR: 27, SCR: 18, SR: 18, CR: 18, R: 18},
     imagesSet: [
-      '/img-long-waifu/NS-2M14_promo.jpg',
-      '/img-long-waifu/NS-2M14_full.jpg',
-      '/img-long-waifu/NS-2M14_short.jpg',
+      '/WaifuCard/img-long-waifu/NS-2M14_promo.jpg',
+      '/WaifuCard/img-long-waifu/NS-2M14_full.jpg',
+      '/WaifuCard/img-long-waifu/NS-2M14_short.jpg',
     ],
   },
   {
@@ -232,8 +232,8 @@ const images = [
     ],
     raretes: {PR: 18, MSR: 6, UR: 6, SER: 6, PTR: 9, SSR: 27, SCR: 18, SR: 18, CR: 18, R: 18},
     imagesSet: [
-      '/img-long-waifu/NS-2M16_full.jpg',
-      '/img-long-waifu/NS-2M16_small.jpg',
+      '/WaifuCard/img-long-waifu/NS-2M16_full.jpg',
+      '/WaifuCard/img-long-waifu/NS-2M16_small.jpg',
       '/img-bonus/NS-2M16_boxPres.jpg',
     ],
   },
@@ -250,8 +250,8 @@ const images = [
     ],
     raretes: {PR: 18, MSR: 6, UR: 6, SER: 6, PTR: 9, SSR: 27, SCR: 18, SR: 18, CR: 18, R: 18},
     imagesSet: [
-      '/img-long-waifu/NS-2M17_full.png',
-      '/img-long-waifu/NS-2M17_small.png',
+      '/WaifuCard/img-long-waifu/NS-2M17_full.png',
+      '/WaifuCard/img-long-waifu/NS-2M17_small.png',
       '/img-bonus/NS-2M17_boxPres.jpg',
       '/img-bonus/NS-2M17_summary.jpg',
       '/img-bonus/NS-2M17_summary2.jpg',

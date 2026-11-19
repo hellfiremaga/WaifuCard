@@ -19,9 +19,9 @@ const images = [
     ],
     raretes: {N: 72, R: 48, PT: 18, Bifold: 6, UR: 8, SR: 24, SP: 20, PX: 8, MR: 18, GS: 6, XP: 6, WS: 10, SSS: 20, Wedding: 24, Spose: 14, GP: 6, ESR: 8, Proxy: 8, Metal: 6, UTR: 8, LXP: 6, EX: 12},
     imagesSet: [
-      '/img-long-waifu/GenkiParade_promo1.png',
-      '/img-long-waifu/GenkiParade_promo3.png',
-      '/img-long-waifu/GenkiParade_promo2.png',
+      '/WaifuCard/img-long-waifu/GenkiParade_promo1.png',
+      '/WaifuCard/img-long-waifu/GenkiParade_promo3.png',
+      '/WaifuCard/img-long-waifu/GenkiParade_promo2.png',
     ],
   },
   {
@@ -38,11 +38,11 @@ const images = [
     ],
     raretes: {N: 70, R: 30, UR: 24, WR: 30, PR: 36, Puzzle: 18, SP: 24, CR: 24, UTR: 15, MR: 20, ZR: 18, DR: 10, LSP: 8, EX: 12, HR: 8, Bifold: 6, SSP: 6, Metal: 8, LSR: 6},
     imagesSet: [
-      '/img-long-waifu/GenkiParade2_promo.png',
-      '/img-long-waifu/GenkiParade2_promo2.png',
-      '/img-long-waifu/GenkiParade2_promo3.png',
-      '/img-long-waifu/GenkiParade2_small.png',
-      '/img-long-waifu/GenkiParade2_gift.png',
+      '/WaifuCard/img-long-waifu/GenkiParade2_promo.png',
+      '/WaifuCard/img-long-waifu/GenkiParade2_promo2.png',
+      '/WaifuCard/img-long-waifu/GenkiParade2_promo3.png',
+      '/WaifuCard/img-long-waifu/GenkiParade2_small.png',
+      '/WaifuCard/img-long-waifu/GenkiParade2_gift.png',
     ],
   },
 ];
