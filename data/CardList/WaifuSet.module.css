@@ -1,0 +1,288 @@
+
+.catalogue {
+  margin: 20px 0;
+}
+
+/* Progression globale */
+.globalProgress {
+  margin: 25px 0 40px;
+}
+
+.progressHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 0.9em;
+}
+
+.progressBar {
+  height: 10px;
+  overflow: hidden;
+  background: var(--ifm-color-emphasis-300);
+  border-radius: 20px;
+}
+
+.progressOwned {
+  height: 100%;
+  background: #16a36a;
+  border-radius: 20px;
+  transition: width 0.3s ease;
+}
+
+.progressPercentage {
+  margin-top: 5px;
+  text-align: right;
+  font-size: 0.8em;
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* Sections */
+.raritySection {
+  margin: 35px 0;
+}
+
+.raritySection h2 {
+  margin-bottom: 15px;
+}
+
+.rarityProgress {
+  margin-bottom: 20px;
+}
+
+.rarityProgress .progressBar {
+  height: 7px;
+}
+
+/* Grille */
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(130px, 1fr)
+  );
+  gap: 20px 15px;
+}
+
+/* Carte */
+.card {
+  min-width: 0;
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: contain;
+  border-radius: 6px;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.cardCode {
+  margin-top: 7px;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
+.owned,
+.missing {
+  margin-top: 3px;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.owned,
+.missing {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 3px 10px;
+  border: 1px solid;
+  border-radius: 15px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.owned {
+  color: #16a36a;
+  border-color: #16a36a;
+  background: rgba(22, 163, 106, 0.08);
+}
+
+.missing {
+  color: #dc3545;
+  border-color: #dc3545;
+  background: rgba(220, 53, 69, 0.08);
+}
+
+/* Petits écrans */
+@media (max-width: 600px) {
+  .cardGrid {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(95px, 1fr)
+    );
+    gap: 15px 10px;
+  }
+}
+
+/* */
+/* */
+/* CSS Box Composition */
+/* */
+/* */
+
+.composition {
+  margin: 35px 0;
+}
+
+.composition h2 {
+  margin-bottom: 20px;
+}
+
+/* Les trois rectangles imbriqués */
+
+.case {
+  border: 2px solid var(--ifm-color-emphasis-500);
+  border-radius: 12px;
+  padding: 16px;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.box {
+  margin-top: 15px;
+  padding: 16px;
+  border: 2px solid var(--ifm-color-emphasis-400);
+  border-radius: 10px;
+  background: var(--ifm-background-color);
+}
+
+.pack {
+  margin-top: 15px;
+  padding: 16px;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  background: var(--ifm-color-emphasis-100);
+}
+
+/* En-têtes */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.header span {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.9em;
+}
+
+/* Emplacements des cartes */
+
+.slots {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.slot {
+  min-width: 0;
+  padding: 12px 8px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 7px;
+  background: var(--ifm-background-color);
+}
+
+.slotNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin: 0 auto 12px;
+  border-radius: 50%;
+  background: var(--ifm-color-emphasis-200);
+  font-weight: 700;
+}
+
+.variant {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.rarity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  margin: 0;
+}
+
+.rarityList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.variant .rarity {
+  grid-column: 1;
+}
+
+.variant .packCount {
+  grid-column: 2;
+  white-space: nowrap;
+}
+
+.packCount {
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-size: 0.8em;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.or {
+  flex-basis: 100%;
+  width: 100%;
+  margin: 8px 0;
+  padding-top: 6px;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  text-align: center;
+  font-size: 0.75em;
+  font-weight: 700;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.rarity strong {
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--ifm-color-emphasis-200);
+}
+
+.rarity span {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.85em;
+}
+
+/* Informations complémentaires */
+
+.notes {
+  margin-top: 15px;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.reprints {
+  margin-top: 20px;
+}
+
+@media (max-width: 700px) {
+  .slots {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,173 @@
+
+/* Composition générale */
+.box-composition {
+  margin: 20px 0;
+  padding: 18px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 16px;
+}
+
+.box-composition h3 {
+  margin: 0 0 8px;
+}
+
+.box-composition > p {
+  font-size: 0.9em;
+  margin-bottom: 14px;
+}
+
+/* Encadrements Case / Box / Pack */
+.composition-case,
+.composition-box,
+.composition-pack {
+  padding: 12px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 15px;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.composition-box {
+  margin-top: 10px;
+}
+
+.composition-pack {
+  margin-top: 10px;
+}
+
+/* En-têtes */
+.composition-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 0.95em;
+}
+
+.composition-header span,
+.variant-count {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.85em;
+}
+
+/* Emplacements */
+.composition-slot {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.slot-position {
+  width: 28px;
+  flex-shrink: 0;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.85em;
+  padding-top: 3px;
+}
+
+.slot-variants {
+  flex: 1;
+  min-width: 0;
+}
+
+.slot-variant {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  min-height: 25px;
+}
+
+.variant-count {
+  margin-left: auto;
+}
+
+.variant-or {
+  width: 100%;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.8em;
+}
+
+/* Badges de rareté */
+.composition-rarities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.composition-rarity {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.rarity-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 7px;
+  background: var(--ifm-color-emphasis-300);
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.rarity-chance {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+/* Notes et légende */
+.composition-notes {
+  margin-top: 12px;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.85em;
+}
+
+.composition-notes p {
+  margin: 4px 0;
+}
+
+.composition-legend {
+  margin-top: 8px;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.85em;
+}
+
+/* Réimpressions */
+.composition-reprints {
+  margin-top: 20px;
+  padding-top: 14px;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.composition-reprints h3 {
+  font-size: 1em;
+}
+
+.composition-reprints p {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.9em;
+}
+
+.composition-reprints table {
+  width: 100%;
+  display: table;
+}
+
+@media (max-width: 600px) {
+  .composition-case,
+  .composition-box,
+  .composition-pack {
+    padding: 8px;
+  }
+
+  .composition-slot {
+    gap: 5px;
+  }
+
+  .variant-count {
+    width: 100%;
+    margin-left: 0;
+  }
+}
