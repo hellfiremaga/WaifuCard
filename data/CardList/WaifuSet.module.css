@@ -184,14 +184,18 @@
 /* Emplacements des cartes */
 
 .slots {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: nowrap;
   gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 10px;
 }
 
 .slot {
-  min-width: 0;
-  padding: 12px 8px;
+  flex: 0 0 auto;
+  width: max-content;
+  min-width: 85px;
+  padding: 12px 10px;
   border: 1px solid var(--ifm-color-emphasis-300);
   border-radius: 7px;
   background: var(--ifm-background-color);
@@ -285,4 +289,113 @@
   .slots {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+
+
+.bonuses {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.bonus {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 12px;
+  border: 1px dashed var(--ifm-color-emphasis-400);
+  border-radius: 7px;
+  background: var(--ifm-background-color);
+}
+
+.bonusQuantity {
+  flex-shrink: 0;
+  font-size: 1.1em;
+}
+
+.bonusRarities {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bonusRarity {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bonusRarity strong {
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--ifm-color-emphasis-200);
+}
+
+.bonusRarity span {
+  font-size: 0.85em;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.bonusPack {
+  margin-left: auto;
+  font-size: 0.85em;
+  color: var(--ifm-color-emphasis-700);
+  text-align: right;
+}
+
+
+.extraPacks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.extraPack {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 12px;
+  border: 1px dashed var(--ifm-color-emphasis-400);
+  border-radius: 7px;
+  background: var(--ifm-background-color);
+}
+
+.extraPackQuantity {
+  flex-shrink: 0;
+  font-size: 1.1em;
+}
+
+.extraPackRarities {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.extraPackRarity {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.extraPackRarity strong {
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--ifm-color-emphasis-200);
+}
+
+.extraPackRarity span,
+.extraPackInfo {
+  font-size: 0.85em;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.extraPackInfo {
+  margin-left: auto;
+  text-align: right;
 }

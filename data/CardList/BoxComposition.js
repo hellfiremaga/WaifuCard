@@ -74,6 +74,41 @@ function BoxComposition({ composition }) {
                 );
               })}
             </div>
+            
+            {/* BOOSTERS SUPPLÉMENTAIRES */}
+            {composition.extraPacks?.length > 0 && (
+              <div className={styles.extraPacks}>
+                {composition.extraPacks.map((bonus, index) => (
+                  <div className={styles.extraPack} key={index}>
+                    <strong className={styles.extraPackQuantity}>
+                      +{bonus.quantity}
+                    </strong>
+
+                    <div className={styles.extraPackRarities}>
+                      {bonus.rarities.map((rarity, rarityIndex) => (
+                        <div
+                          className={styles.extraPackRarity}
+                          key={rarityIndex}
+                        >
+                          <strong>{rarity.rarity}</strong>
+
+                          {rarity.chance != null && (
+                            <span>{rarity.chance}</span>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+
+                    {bonus.pack != null && (
+                      <span className={styles.extraPackInfo}>
+                        Booster n°{bonus.pack}
+                      </span>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
+
           </div>
         </div>
       </div>
