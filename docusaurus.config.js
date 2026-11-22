@@ -97,7 +97,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'CardListSidebar',
             position: 'left',
-            label: 'Liste de carte',
+            label: 'Liste de cartes',
           },
           /* {to: '/blog', label: 'Blog', position: 'left'},
           {
